@@ -97,7 +97,11 @@ int main ( int argc, char **argv )
 //
 //  Carry out the algorithm.
 //
-  mind = dijkstra_distance ( ohd );
+ int mind[1000];
+ int i;
+  for(i=0;i<1000;i++){
+  mind[i] = dijkstra_distance ( ohd );
+  }
 //
 //  Print the results.
 //
