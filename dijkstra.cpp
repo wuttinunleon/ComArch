@@ -97,11 +97,11 @@ int main ( int argc, char **argv )
 //
 //  Carry out the algorithm.
 //
- int mind[1000];
+ int mind2[1000][1000];
  int i,j;
 for(j=0;j<1000;j++){
   for(i=0;i<1000;i++){
-  mind[i] = dijkstra_distance ( ohd );
+  mind2[j][i] = dijkstra_distance ( ohd );
   }
 }
 //
