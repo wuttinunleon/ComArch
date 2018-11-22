@@ -98,10 +98,10 @@ int main ( int argc, char **argv )
 //  Carry out the algorithm.
 //
  int mind2[1000][1000];
- int i,j;
-for(j=0;j<1000;j++){
-  for(i=0;i<1000;i++){
-  mind2[j][i] = dijkstra_distance ( ohd );
+ int row,column;
+for(row=0;row<1000;row++){
+  for(column=0;column<1000;column++){
+  mind2[row][column] = dijkstra_distance ( ohd );
   }
 }
 //
